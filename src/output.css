@@ -633,6 +633,15 @@ video {
   width: 24rem;
 }
 
+.max-w-96 {
+  max-width: 24rem;
+}
+
+.max-w-max {
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
 .flex-col {
   flex-direction: column;
 }
